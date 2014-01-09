@@ -1,0 +1,39 @@
+{
+  "name": "rendr-react-todomvc",
+  "version": "0.0.0",
+  "description": "An example of rendr-react use. todomvc",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test-unit && npm run test-karma",
+    "test-unit": "mocha --ui bdd --reporter spec ./test/app --recursive --require ./test/helper.js",
+    "test-karma": "grunt compile && karma start test/karma.config.js --single-run",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~3",
+    "underscore": "~1.4.4",
+    "rendr": "git://github.com/rcs/rendr#18c1c9a4a491e683fcdb3dc893c054eaec0246df",
+    "envify": "~0.2.0",
+    "react": "~0.8.0",
+    "async": "~0.2.9",
+    "backbone": "1.0.0",
+    "rendr-handlebars": "~0.2.0-rc1",
+    "reactify": "~0.5.0",
+    "node-jsx": "~0.2.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-browserify": "~1.2.9",
+    "grunt-contrib-watch": "~0.3.1",
+    "nodemon": "~0.7.6",
+    "mocha": "~1.9.0",
+    "chai": "~1.8.1",
+    "karma": "~0.10.4",
+    "karma-chrome-launcher": "~0.1.0",
+    "karma-mocha": "~0.1.0"
+  },
+  "engines": {
+    "node": "~0.10.24"
+  },
+  "private": true
+}
