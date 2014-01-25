@@ -1,6 +1,6 @@
 
 /** @jsx ReactView.DOM */
-ReactView = require('../react');
+ReactView = require('rendr-react/view');
 
 
 module.exports = ReactView({

@@ -1,5 +1,5 @@
 /** @jsx ReactView.DOM */
-ReactView = require('../react');
+ReactView = require('rendr-react/view');
 
 var ESCAPE_KEY = 27;
 var ENTER_KEY = 13;

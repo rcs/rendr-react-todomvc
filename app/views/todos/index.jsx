@@ -1,5 +1,5 @@
 /** @jsx ReactView.DOM */
-ReactView = require('../react');
+ReactView = require('rendr-react/view');
 TodoItem = require('./todo_item');
 Footer = require('./footer');
 

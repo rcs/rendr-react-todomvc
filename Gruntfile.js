@@ -34,7 +34,7 @@ module.exports = function(grunt) {
 
         alias: [
           'node_modules/rendr-handlebars/index.js:rendr-handlebars',
-          'node_modules/react/react.js:react'
+          //'node_modules/react/react.js:react'
         ],
         aliasMappings: [
           {
