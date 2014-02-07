@@ -12,12 +12,12 @@
   "dependencies": {
     "express": "~3",
     "underscore": "~1.4.4",
-    "rendr": "rcs/rendr#55363bc0cf58bb4dded9002cbbab63bf80304db4",
+    "rendr": "rcs/rendr#viewAdapter",
     "envify": "~0.2.0",
     "react": "~0.8.0",
     "async": "~0.2.9",
     "backbone": "1.0.0",
-    "rendr-handlebars": "~0.2.0-rc1",
+    "rendr-handlebars": "rcs/rendr-handlebars#viewAdapter",
     "reactify": "~0.5.0",
     "node-jsx": "~0.2.0",
     "rendr-react": "rcs/rendr-react"
